@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20176CC2C352AB20060A359 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20176CB2C352AB20060A359 /* MapViewModel.swift */; };
+		C20176D02C35338A0060A359 /* HomeScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20176CF2C35338A0060A359 /* HomeScreenVM.swift */; };
+		C20A24312C33FB5900E7A0EE /* type_list.json in Resources */ = {isa = PBXBuildFile; fileRef = C20A24302C33FB5900E7A0EE /* type_list.json */; };
+		C20A24332C33FCBD00E7A0EE /* vehicleTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20A24322C33FCBD00E7A0EE /* vehicleTypeModel.swift */; };
+		C20A24352C3405C700E7A0EE /* dataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20A24342C3405C700E7A0EE /* dataView.swift */; };
+		C2241A5D2C2BED5300C7A3B4 /* DropoffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2241A5C2C2BED5300C7A3B4 /* DropoffView.swift */; };
+		C2241A5F2C2BEDC500C7A3B4 /* PickupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2241A5E2C2BEDC500C7A3B4 /* PickupView.swift */; };
+		C2241A652C2C358B00C7A3B4 /* listView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2241A642C2C358B00C7A3B4 /* listView.swift */; };
+		C25D908A2C33C066008387CD /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = C25D90892C33C066008387CD /* GoogleMaps */; };
+		C25D908C2C33C07F008387CD /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25D908B2C33C07F008387CD /* GoogleMapsView.swift */; };
+		C25D908E2C33C25F008387CD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25D908D2C33C25F008387CD /* LocationManager.swift */; };
+		C25D90962C33CF2B008387CD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25D90952C33CF2B008387CD /* MapView.swift */; };
+		C25D90982C33DDDF008387CD /* locationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25D90972C33DDDF008387CD /* locationsView.swift */; };
+		C25F94582C3547580073BE7D /* ItemsIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F94572C3547580073BE7D /* ItemsIcons.swift */; };
+		C29887D82C2C3D1500372DAF /* AddressRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29887D72C2C3D1500372DAF /* AddressRow.swift */; };
+		C29F9B352C2AD22C00333C38 /* secondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F9B342C2AD22C00333C38 /* secondScreen.swift */; };
+		C29F9B382C2AD42200333C38 /* offerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29F9B372C2AD42200333C38 /* offerModel.swift */; };
+		C2AA7F772C2984FF00CD0733 /* offerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AA7F762C2984FF00CD0733 /* offerView.swift */; };
 		C2C1EDED2C2934F3005DF762 /* rydexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1EDEC2C2934F3005DF762 /* rydexApp.swift */; };
 		C2C1EDEF2C2934F3005DF762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1EDEE2C2934F3005DF762 /* ContentView.swift */; };
 		C2C1EDF12C2934F5005DF762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C1EDF02C2934F5005DF762 /* Assets.xcassets */; };
@@ -16,6 +34,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C20176CB2C352AB20060A359 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		C20176CF2C35338A0060A359 /* HomeScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVM.swift; sourceTree = "<group>"; };
+		C20A24302C33FB5900E7A0EE /* type_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = type_list.json; sourceTree = "<group>"; };
+		C20A24322C33FCBD00E7A0EE /* vehicleTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicleTypeModel.swift; sourceTree = "<group>"; };
+		C20A24342C3405C700E7A0EE /* dataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataView.swift; sourceTree = "<group>"; };
+		C20A24362C3518F700E7A0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C2241A5C2C2BED5300C7A3B4 /* DropoffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropoffView.swift; sourceTree = "<group>"; };
+		C2241A5E2C2BEDC500C7A3B4 /* PickupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupView.swift; sourceTree = "<group>"; };
+		C2241A642C2C358B00C7A3B4 /* listView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listView.swift; sourceTree = "<group>"; };
+		C25D908B2C33C07F008387CD /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
+		C25D908D2C33C25F008387CD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C25D90952C33CF2B008387CD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C25D90972C33DDDF008387CD /* locationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationsView.swift; sourceTree = "<group>"; };
+		C25F94572C3547580073BE7D /* ItemsIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsIcons.swift; sourceTree = "<group>"; };
+		C29887D72C2C3D1500372DAF /* AddressRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressRow.swift; sourceTree = "<group>"; };
+		C29F9B342C2AD22C00333C38 /* secondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondScreen.swift; sourceTree = "<group>"; };
+		C29F9B372C2AD42200333C38 /* offerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offerModel.swift; sourceTree = "<group>"; };
+		C2AA7F762C2984FF00CD0733 /* offerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offerView.swift; sourceTree = "<group>"; };
 		C2C1EDE92C2934F3005DF762 /* rydex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rydex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C1EDEC2C2934F3005DF762 /* rydexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rydexApp.swift; sourceTree = "<group>"; };
 		C2C1EDEE2C2934F3005DF762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,12 +66,107 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C25D908A2C33C066008387CD /* GoogleMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C20176CA2C352A8C0060A359 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C20176CB2C352AB20060A359 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C25D908F2C33CD15008387CD /* ThirdScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C25D90902C33CEC0008387CD /* View */,
+				C20176CA2C352A8C0060A359 /* ViewModel */,
+				C25D90912C33CEC7008387CD /* Model */,
+			);
+			path = ThirdScreen;
+			sourceTree = "<group>";
+		};
+		C25D90902C33CEC0008387CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C25D90952C33CF2B008387CD /* MapView.swift */,
+				C20A24342C3405C700E7A0EE /* dataView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C25D90912C33CEC7008387CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C20A24302C33FB5900E7A0EE /* type_list.json */,
+				C20A24322C33FCBD00E7A0EE /* vehicleTypeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C29F9B332C2AD20700333C38 /* elements */ = {
+			isa = PBXGroup;
+			children = (
+				C2AA7F762C2984FF00CD0733 /* offerView.swift */,
+				C2C1EDFA2C294399005DF762 /* iconView.swift */,
+				C2C1EDFC2C294B6B005DF762 /* iconViewWithContextMenu.swift */,
+				C25F94572C3547580073BE7D /* ItemsIcons.swift */,
+			);
+			name = elements;
+			sourceTree = "<group>";
+		};
+		C29F9B362C2AD3A100333C38 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C2C1EDFF2C294BD1005DF762 /* View */,
+				C2C1EDFE2C294BCA005DF762 /* Model */,
+				C2C1EE002C294BD6005DF762 /* ViewModel */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		C29F9B392C2ADA4300333C38 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C29F9B3C2C2ADBCA00333C38 /* View Model */,
+				C29F9B3B2C2ADBC400333C38 /* View */,
+				C29F9B3A2C2ADBBC00333C38 /* Model */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		C29F9B3A2C2ADBBC00333C38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C29F9B3B2C2ADBC400333C38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C29F9B342C2AD22C00333C38 /* secondScreen.swift */,
+				C25D90972C33DDDF008387CD /* locationsView.swift */,
+				C2241A642C2C358B00C7A3B4 /* listView.swift */,
+				C29887D72C2C3D1500372DAF /* AddressRow.swift */,
+				C2241A5C2C2BED5300C7A3B4 /* DropoffView.swift */,
+				C2241A5E2C2BEDC500C7A3B4 /* PickupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C29F9B3C2C2ADBCA00333C38 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		C2C1EDE02C2934F3005DF762 = {
 			isa = PBXGroup;
 			children = (
@@ -55,9 +186,13 @@
 		C2C1EDEB2C2934F3005DF762 /* rydex */ = {
 			isa = PBXGroup;
 			children = (
-				C2C1EE002C294BD6005DF762 /* ViewModel */,
-				C2C1EDFF2C294BD1005DF762 /* View */,
-				C2C1EDFE2C294BCA005DF762 /* Model */,
+				C20A24362C3518F700E7A0EE /* Info.plist */,
+				C2C1EDEC2C2934F3005DF762 /* rydexApp.swift */,
+				C25D908D2C33C25F008387CD /* LocationManager.swift */,
+				C25D908B2C33C07F008387CD /* GoogleMapsView.swift */,
+				C29F9B362C2AD3A100333C38 /* HomeScreen */,
+				C29F9B392C2ADA4300333C38 /* SecondScreen */,
+				C25D908F2C33CD15008387CD /* ThirdScreen */,
 				C2C1EDF02C2934F5005DF762 /* Assets.xcassets */,
 				C2C1EDF22C2934F5005DF762 /* Preview Content */,
 			);
@@ -75,6 +210,7 @@
 		C2C1EDFE2C294BCA005DF762 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C29F9B372C2AD42200333C38 /* offerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,10 +218,8 @@
 		C2C1EDFF2C294BD1005DF762 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C2C1EDEC2C2934F3005DF762 /* rydexApp.swift */,
+				C29F9B332C2AD20700333C38 /* elements */,
 				C2C1EDEE2C2934F3005DF762 /* ContentView.swift */,
-				C2C1EDFA2C294399005DF762 /* iconView.swift */,
-				C2C1EDFC2C294B6B005DF762 /* iconViewWithContextMenu.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +227,7 @@
 		C2C1EE002C294BD6005DF762 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C20176CF2C35338A0060A359 /* HomeScreenVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -113,6 +248,9 @@
 			dependencies = (
 			);
 			name = rydex;
+			packageProductDependencies = (
+				C25D90892C33C066008387CD /* GoogleMaps */,
+			);
 			productName = rydex;
 			productReference = C2C1EDE92C2934F3005DF762 /* rydex.app */;
 			productType = "com.apple.product-type.application";
@@ -141,6 +279,9 @@
 				Base,
 			);
 			mainGroup = C2C1EDE02C2934F3005DF762;
+			packageReferences = (
+				C25D90882C33C066008387CD /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
 			productRefGroup = C2C1EDEA2C2934F3005DF762 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -157,6 +298,7 @@
 			files = (
 				C2C1EDF42C2934F5005DF762 /* Preview Assets.xcassets in Resources */,
 				C2C1EDF12C2934F5005DF762 /* Assets.xcassets in Resources */,
+				C20A24312C33FB5900E7A0EE /* type_list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,9 +310,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2C1EDFB2C294399005DF762 /* iconView.swift in Sources */,
+				C25D90982C33DDDF008387CD /* locationsView.swift in Sources */,
+				C25D90962C33CF2B008387CD /* MapView.swift in Sources */,
+				C2241A5D2C2BED5300C7A3B4 /* DropoffView.swift in Sources */,
+				C25F94582C3547580073BE7D /* ItemsIcons.swift in Sources */,
+				C25D908E2C33C25F008387CD /* LocationManager.swift in Sources */,
+				C29887D82C2C3D1500372DAF /* AddressRow.swift in Sources */,
+				C2241A652C2C358B00C7A3B4 /* listView.swift in Sources */,
 				C2C1EDEF2C2934F3005DF762 /* ContentView.swift in Sources */,
+				C20A24352C3405C700E7A0EE /* dataView.swift in Sources */,
+				C2AA7F772C2984FF00CD0733 /* offerView.swift in Sources */,
 				C2C1EDFD2C294B6B005DF762 /* iconViewWithContextMenu.swift in Sources */,
+				C20A24332C33FCBD00E7A0EE /* vehicleTypeModel.swift in Sources */,
+				C29F9B352C2AD22C00333C38 /* secondScreen.swift in Sources */,
+				C25D908C2C33C07F008387CD /* GoogleMapsView.swift in Sources */,
+				C2241A5F2C2BEDC500C7A3B4 /* PickupView.swift in Sources */,
 				C2C1EDED2C2934F3005DF762 /* rydexApp.swift in Sources */,
+				C20176D02C35338A0060A359 /* HomeScreenVM.swift in Sources */,
+				C29F9B382C2AD42200333C38 /* offerModel.swift in Sources */,
+				C20176CC2C352AB20060A359 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +459,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"rydex/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rydex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -329,6 +488,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"rydex/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rydex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -369,6 +529,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C25D90882C33C066008387CD /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C25D90892C33C066008387CD /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C25D90882C33C066008387CD /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C2C1EDE12C2934F3005DF762 /* Project object */;
 }

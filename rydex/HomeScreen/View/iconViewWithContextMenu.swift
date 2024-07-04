@@ -25,23 +25,18 @@ struct iconViewWithContextMenu: View {
                 .foregroundColor(.black)
                 .contextMenu {
                     Button(action: {
-                        // Action for first button
                         print("Option 1 selected")
                     }) {
                         Text("Option 1")
                         Image(systemName: "star")
                     }
-                    
                     Button(action: {
-                        // Action for second button
                         print("Option 2 selected")
                     }) {
                         Text("Option 2")
                         Image(systemName: "pencil")
                     }
-                    
                     Button(action: {
-                        // Action for third button
                         print("Option 3 selected")
                     }) {
                         Text("Option 3")

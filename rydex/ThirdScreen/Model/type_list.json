@@ -1,0 +1,66 @@
+{
+    "data": {
+        "vehicleTypes": [
+            {
+                "_id": "65df0fad9acc3828bd226e7c",
+                "type": 1,
+                "name": {
+                    "en": "SUV"
+                },
+                "imageUrl": "suv",
+                "isDriverAvailable": false,
+                "passengerCapacity": 4,
+                "uniqueId": 1,
+                "price": "₹ 252"
+            },
+            {
+                "_id": "6628ef041e4572f65a158768",
+                "type": 1,
+                "name": {
+                    "en": "Super mini"
+                },
+                "imageUrl": "supermini",
+                "isDriverAvailable": false,
+                "passengerCapacity": 2,
+                "uniqueId": 2,
+                "price": "₹ 489"
+            },
+            {
+                "_id": "662a01d38026e6507f3381ff",
+                "type": 2,
+                "name": {
+                    "en": "SUV Mini"
+                },
+                "imageUrl": "suvmini",
+                "isDriverAvailable": false,
+                "passengerCapacity": 3,
+                "uniqueId": 3,
+                "price": "₹ 782"
+            },
+            {
+                "_id": "665023022c3d8c13c76d30a2",
+                "type": 1,
+                "name": {
+                    "en": "Coupe"
+                },
+                "imageUrl": "coupe",
+                "isDriverAvailable": false,
+                "passengerCapacity": 4,
+                "uniqueId": 4,
+                "price": "₹ 398"
+            },
+            {
+                "_id": "662a05858026e6507f3386fa",
+                "type": 1,
+                "name": {
+                    "en": "Sedan mini"
+                },
+                "imageUrl": "sedanmini",
+                "isDriverAvailable": false,
+                "passengerCapacity": 3,
+                "uniqueId": 5,
+                "price": "₹ 579"
+            }
+        ]
+    }
+}
